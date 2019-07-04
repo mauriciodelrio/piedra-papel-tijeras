@@ -1,0 +1,49 @@
+{
+  "name": "base-react",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "dev": "PORT=8080 nodemon app.js",
+    "start": "node app.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-rate-limit": "^3.3.2",
+    "express-request-id": "^1.4.1",
+    "fs": "0.0.1-security",
+    "generate-password": "^1.4.0",
+    "helmet": "^3.15.0",
+    "heroku-ssl-redirect": "0.0.4",
+    "hsts": "^2.1.0",
+    "http-errors": "~1.6.2",
+    "mailgun": "^0.5.0",
+    "mailgun-js": "^0.21.0",
+    "microstats": "^0.1.2",
+    "moment": "^2.23.0",
+    "mongoose": "^5.2.9",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.2.1",
+    "nodemon": "^1.18.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "rut.js": "^1.0.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.1.1",
+    "socket.io-stream": "^0.9.1"
+  }
+}
