@@ -1,4 +1,4 @@
-# Desafío Tic-tac-toe
+# Desafío Piedra papel tijeras 
 
 ## Consideraciones
 
